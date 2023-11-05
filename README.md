@@ -199,3 +199,46 @@ int main()
 
     ```
 
+- if i want reversed
+  ``` c++
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	struct stInfo
+	{
+		string firstName;
+		string LastName;
+	};
+	stInfo ReadInfo() {
+		stInfo Info;
+		cin >> Info.firstName;
+		cout << "olease enter last name" << endl;
+		cin >> Info.LastName;
+		return Info;
+	}
+	string GetFullName(stInfo Info,bool reversed) {
+		string fullName = "";
+		if (reversed) {
+			fullName =  Info.LastName + " " + Info.firstName ;
+	
+		}
+		else {
+			fullName = Info.firstName + " " + Info.LastName;
+	
+		}
+		return fullName;
+	}
+	void printResult(string name) {
+		cout << name<<endl;
+	}
+	int main()
+	{
+		printResult(GetFullName(ReadInfo(),1));
+		return 0;
+	}
+	
+
+```
