@@ -81,6 +81,45 @@ int main()
 
 
 ```
+- ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/5c07fe02-fef8-42f6-bbd9-06edcfb5e423)
+  ``` c++
+	  	// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	struct stInfo
+	{
+		int Age;
+		bool HasDrivingLicenes;
+	};
+	stInfo ReadInfo() {
+		stInfo Info;
+		cin >> Info.Age;
+		cout << "olease enter licens" << endl;
+		cin >> Info.HasDrivingLicenes;
+		return Info;
+	}
+	bool isAccepted(stInfo info) {
+		return (info.Age > 21 && info.HasDrivingLicenes);
+	}
+	void printResult(stInfo info) {
+		if (isAccepted(info)) {
+			cout << "success";
+		}
+		else {
+			cout << "Not Ecepted";
+		}
+	}
+	int main()
+	{
+		printResult(ReadInfo());
+		return 0;
+	}
+
+
+  ```
 
 
 
