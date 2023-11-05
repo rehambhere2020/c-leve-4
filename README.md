@@ -241,7 +241,6 @@ int main()
 	}
 ```
 ### half number 
-```
 ```c++
 // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
