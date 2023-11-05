@@ -239,6 +239,33 @@ int main()
 		printResult(GetFullName(ReadInfo(),1));
 		return 0;
 	}
-	
+```
+### half number 
+```
+```c++
+// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
 
+#include <iostream>
+using namespace std;
+#include <string>
+int ReadNum() {
+	int num;
+	cin >> num;
+	return num;
+}
+float halfNum(int num) {
+	if (num == 0) return num;
+
+	return (float)num / 2;
+}
+void printResult(int  num) {
+	cout << halfNum(num);
+}
+int main()
+{
+	printResult(ReadNum());
+	return 0;
+}
+```
 ```
