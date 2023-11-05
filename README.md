@@ -162,4 +162,40 @@ int main()
 	
 
   ```
+  - Print FullNAm e
+    ``` c++
+	    	// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	struct stInfo
+	{
+		string firstName;
+		string LastName;
+	};
+	stInfo ReadInfo() {
+		stInfo Info;
+		cin >> Info.firstName;
+		cout << "olease enter last name" << endl;
+		cin >> Info.LastName;
+		return Info;
+	}
+	string GetFullName(stInfo Info) {
+		string fullName = "";
+		fullName = Info.firstName + " " + Info.LastName;
+		return fullName;
+	}
+	void printResult(string name) {
+		cout << name<<endl;
+	}
+	int main()
+	{
+		printResult(GetFullName(ReadInfo()));
+		return 0;
+	}
+	
+
+    ```
 
