@@ -267,3 +267,43 @@ int main()
 	return 0;
 }
 ```
+- check fail or pass
+  ```c++
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
+	
+	int ReadNum() {
+		int mark;
+		cin >> mark;
+		return mark;
+	}
+	enumMark checkItsPassOrNot (int mark) {
+		if (mark >= 50) {
+			return enumMark::pass;
+		}
+		else
+		{
+			return enumMark::fail;
+		}
+	}
+	void printResult(enumMark mark) {
+		if (mark == enumMark::pass) {
+			cout << "pass";
+		}else{
+			cout << "fail";
+		}
+		
+	}
+	int main()
+	{
+		printResult(checkItsPassOrNot(ReadNum()));
+		return 0;
+	}
+
+
+  ```
