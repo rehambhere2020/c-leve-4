@@ -39,8 +39,48 @@
 
   ```
 
+-check even or odd 
+``` c++
+	// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+#include <string>
+enum enumNumber {odd=1 , even =2};
+int ReadNum() {
+	int num;
+	cin >> num;
+	return num;
+}
+enumNumber checkNum(int num) {
+	int res = num % 2;
+	if(res == 0) {
+		return enumNumber::even;
+	}
+	else {
+		return enumNumber::odd;
+	}
+
+}
+
+void printNumber(enumNumber num) {
+	if (num == enumNumber::even) {
+		cout << "Even" << endl;
+	}
+	else {
+		cout << "Odd" << endl;
+	}
+}
+
+int main()
+{
+	printNumber(checkNum(ReadNum()));
+	return 0;
+}
 
 
+```
 
 
 
