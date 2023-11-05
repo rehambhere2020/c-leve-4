@@ -121,5 +121,45 @@ int main()
 
   ```
 
+- has Recomminadation
+  ``` c++
+	// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	struct stInfo
+	{
+		int Age;
+		bool HasDrivingLicenes;
+		bool HasRecommendation;
+	};
+	stInfo ReadInfo() {
+		stInfo Info;
+		cin >> Info.Age;
+		cout << "olease enter licens" << endl;
+		cin >> Info.HasDrivingLicenes;
+		cin >> Info.HasRecommendation;
+		return Info;
+	}
+	bool isAccepted(stInfo info) {
+		return (info.HasRecommendation || info.Age > 21 && info.HasDrivingLicenes);
+	}
+	void printResult(stInfo info) {
+		if (isAccepted(info)) {
+			cout << "success";
+		}
+		else {
+			cout << "Not Ecepted";
+		}
+	}
+	int main()
+	{
+		printResult(ReadInfo());
+		return 0;
+	}
+	
 
+  ```
 
