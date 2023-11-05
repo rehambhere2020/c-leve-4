@@ -240,10 +240,10 @@ int main()
 		return 0;
 	}
 ```
-### half number 
+```
+- half number
+
 ```c++
-// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 using namespace std;
@@ -266,5 +266,4 @@ int main()
 	printResult(ReadNum());
 	return 0;
 }
-```
 ```
