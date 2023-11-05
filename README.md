@@ -17,14 +17,15 @@
   ```
 - print and read name
   ```c++
-	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+		// c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
 	//
 	
 	#include <iostream>
 	using namespace std;
+	#include <string>
 	string ReadName() {
 		string name;
-		cin >> name;
+		getline(cin, name);
 		return name;
 	}
 	void printName(string name) {
