@@ -377,3 +377,57 @@ int main()
 	
 
     ```
+
+    - pass or vail Avg
+      ``` c++
+		      // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+		//
+		
+		#include <iostream>
+		using namespace std;
+		#include <string>
+		enum  enumMark {pass=1, fail=0};
+		
+		int ReadNum(int &num1, int &num2,int &num3) {
+		;
+			cin >> num1;
+			cin >> num2;
+			cin >> num3;
+			return num1 , num2 , num3;
+		}
+		int sumNum(int num1, int num2, int num3) {
+			return (num1 + num2 + num3);
+		}
+		float AvargaeSum(int num1, int num2, int num3) {
+			return (float) sumNum(num1, num2, num3) / 3;
+		}
+		
+		
+		enumMark checkAvg(float avg) {
+			if (avg >= 50) {
+				return enumMark::pass;
+			}
+			else {
+				return enumMark::fail;
+			}
+		}
+		void printResult(float avg) {
+			if (checkAvg(avg) == enumMark::pass) {
+				cout << "your pass " << avg << endl;
+			}
+			else {
+				cout << "your Fail";
+			}
+		}
+		
+		
+		int main()
+		{
+			int num1, num2, num3;
+			ReadNum(num1, num2, num3);
+			printResult(AvargaeSum(num1,num2, num3));
+			return 0;
+		}
+
+
+      ```
