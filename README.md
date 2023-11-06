@@ -476,3 +476,61 @@ int main()
 
 
   ```
+
+  - print max 3 num
+  - ```c++
+	    // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
+	
+	int ReadNum(int &num1, int &num2 , int &num3 ) {
+	;
+		cin >> num1;
+		cin >> num2;
+		cin >> num3;
+		return num1, num2 , num3;
+	}
+	
+	int checkMAx(int num1, int num2 , int num3) {
+		int max = 0 ;
+		if (num1 > num2) {
+			if (num1 > num3) {
+				max = num1;
+			}else{
+				max = num3;
+			}
+		}
+		else {
+			if (num2 > num3) {
+				max = num2;
+			}else{
+				max = num3;
+			}
+	
+		}
+		
+	
+		
+		return max;
+	}
+	
+	
+	void printResult(int max) {
+		cout << max;
+	}
+	
+	
+	int main()
+	{
+		int num1, num2 , num3;
+		ReadNum(num1, num2 , num3);
+		printResult(checkMAx(num1, num2, num3));
+		
+	}
+	
+
+    ```
