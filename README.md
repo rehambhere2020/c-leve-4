@@ -617,6 +617,8 @@ int main()
 
   ```
 - RectangleBySideAndDiagonal
+- ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/d3c18075-28ca-47c9-a32c-1359c2a148e3)
+
 - ```c++
 	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
 	//
@@ -654,3 +656,32 @@ int main()
 	
 
   ```
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/6063ac45-9432-4d56-a514-69a83d006880)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/cc865ef9-fe5a-4fb9-84a0-7065a5d228ce)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/e8666545-4d82-421b-b235-cf60460503db)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/073c2ac8-42fe-4843-a003-a985c0d81e4f)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/a243c268-6aae-415e-a6a9-a921c9092106)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/41bff366-c6ea-4c6d-bb5c-69e59dca1409)
+
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/cce152f1-423d-493f-b7b3-9816a6a8adc9)
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/f1541cf2-2879-497f-a725-229eb11036df)
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/2b92338a-8edf-4391-a078-b6ca6a687094)
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/635f298b-130c-48e7-99d7-42e8643f0281)
+  ![image](https://github.com/rehambhere2020/c-leve-4/assets/86384217/b689a06a-78ef-4983-996c-220e83720cc8)
+
+
+
+
+
+
+
+
+
+
+
