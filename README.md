@@ -431,3 +431,48 @@ int main()
 
 
       ```
+- Max of Tow Number
+- ``` c++
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
+	
+	int ReadNum(int &num1, int &num2) {
+	;
+		cin >> num1;
+		cin >> num2;
+		return num1, num2;
+	}
+	
+	int checkMAx(int num1, int num2) {
+		int max = 0 ;
+		if (num1 > num2) {
+			max = num1;
+		}
+		else {
+			max = num2;
+		}
+		
+		return max;
+	}
+	
+	
+	void printResult(int max) {
+		cout << max;
+	}
+	
+	
+	int main()
+	{
+		int num1, num2;
+		ReadNum(num1, num2);
+		printResult(checkMAx(num1, num2));
+		
+	}
+
+
+  ```
