@@ -536,44 +536,84 @@ int main()
     ```
 - swap
 - ```c++
-  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
-using namespace std;
-#include <string>
-enum  enumMark {pass=1, fail=0};
-
-int ReadNum(int &num1, int &num2 ) {
-;
-	cin >> num1;
-	cin >> num2;
-	return num1, num2 ;
-}
-
-void swapNum(int &num1, int &num2) {
-	int temp = 0;
-	temp = num1;// قيمة num1 تم تخزينها في temp
-
-	num1 = num2;// قيمة num2 تم تخزينها في num1
-	num2 = temp;//
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
 	
-}
-
-
-void printResult(int num1 , int num2) {
-	cout << num1 << num2;
-}
-
-
-int main()
-{
-	int num1, num2 ;
-	ReadNum(num1, num2);
-	swapNum(num1, num2);
-	printResult(num1 , num2);
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
 	
-}
+	int ReadNum(int &num1, int &num2 ) {
+	;
+		cin >> num1;
+		cin >> num2;
+		return num1, num2 ;
+	}
+	
+	void swapNum(int &num1, int &num2) {
+		int temp = 0;
+		temp = num1;// قيمة num1 تم تخزينها في temp
+	
+		num1 = num2;// قيمة num2 تم تخزينها في num1
+		num2 = temp;//
+		
+	}
+	
+	
+	void printResult(int num1 , int num2) {
+		cout << num1 << num2;
+	}
+	
+	
+	int main()
+	{
+		int num1, num2 ;
+		ReadNum(num1, num2);
+		swapNum(num1, num2);
+		printResult(num1 , num2);
+		
+	}
 
 
   ```
+
+- rectangle REA
+- ``` C++
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
+	
+	int ReadNum(int &num1, int &num2 ) {
+	;
+		cin >> num1;
+		cin >> num2;
+		return num1, num2 ;
+	}
+	
+	int RectangleSpace(int a, int b) {
+		int res = a * b;
+		return res;
+	}
+	
+	
+	void printResult(int res) {
+		cout << res;
+	}
+	
+	
+	int main()
+	{
+		int num1, num2 ;
+		ReadNum(num1, num2);
+		printResult(RectangleSpace(num1, num2));
+		
+	}
+
+
+  ```
+
