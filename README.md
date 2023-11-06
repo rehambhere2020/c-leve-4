@@ -616,4 +616,41 @@ int main()
 
 
   ```
+- RectangleBySideAndDiagonal
+- ```c++
+	  // c++level4quastion.cpp : This file contains the 'main' function. Program execution begins and ends there.
+	//
+	
+	#include <iostream>
+	using namespace std;
+	#include <string>
+	enum  enumMark {pass=1, fail=0};
+	
+	int ReadNum(int &num1, int &num2 ) {
+	;
+		cin >> num1;
+		cin >> num2;
+		return num1, num2 ;
+	}
+	
+	int RectangleِBySideAndDiagonal(int a, int b) {
+		int res = a * sqrt(pow(b,2) - pow(a,2));
+		return res;
+	}
+	
+	
+	void printResult(int res) {
+		cout << res;
+	}
+	
+	
+	int main()
+	{
+		int num1, num2 ;
+		ReadNum(num1, num2);
+		printResult(RectangleِBySideAndDiagonal(num1, num2));
+		
+	}
+	
 
+  ```
